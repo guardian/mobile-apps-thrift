@@ -110,6 +110,7 @@ service Videos {
 
 service Metrics {
     void sendMetrics(1:list<Metric> metrics)
+    void sendArticleHeight(1:i32 articleHeight)
 }
 
 service Discussion {
